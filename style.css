@@ -1,0 +1,51 @@
+html, body{
+  height:100%;
+  font-family:Arial;
+  margin:0 auto;
+}
+a{
+  text-decoration:none;
+  color:red;
+}
+.container{
+  display:flex;
+}
+.column{
+  flex-direction:column;
+}
+nav a{
+  flex:1;
+  text-align:center;
+  padding:10px;
+  color:red;
+}
+nav a:hover{
+  background-color:red;
+  color:white;
+  transition:2s;
+}
+
+#banner{
+  align-items: center;  
+  background-color:red;
+  color:white;
+  padding:20px;
+}
+#body{
+  padding:50px;
+}
+#links{
+  padding:50px;
+}
+#links *{
+  border: 1px solid black;
+  margin:5px;
+}
+
+#footer{
+  background-color:red;
+  color:white;
+  padding:20px;
+  justify-content: center;
+  align-items:center;
+}
